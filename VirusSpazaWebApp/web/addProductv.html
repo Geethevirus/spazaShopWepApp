@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Enter Product details</h1>
+        <form action="ManagervCrontroller.do" method="POST">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="prod_name"></td>
+                </tr>
+                <tr>
+                    <td>Unit Price:</td>
+                    <td><input type="text" name="prod_price"></td>
+                </tr>
+                <tr>
+                    <td>Code:</td>
+                    <td><input type="text" name="prod_code"></td>
+                </tr>
+                <tr>
+                    <td>Quantity:</td>
+                    <td><input type="text" name="prod_quantity"></td>
+                </tr>
+                <tr>
+                    <td><input type="hidden" name="opt" value="prod_add"></td>
+                    <td><input type="submit" value="Add"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
